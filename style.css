@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background: url(imagenes/biblbia.jpg) no-repeat center center/cover;
+    
+}
+
+
+.contenido-centrado{
+    display: flex;
+    flex-wrap: wrap;
+   
+    align-items:center ;
+    justify-content: center;
+}
+
+
+.contenedor{
+    width: 80vw;
+    max-width: 600px;
+    min-height: 500px;
+    background-color: #fff;
+    padding: 20px;
+    border: 5px solid #000;
+    border-radius: 20px;
+}
+
+
+
+
+.contenedor-interno{
+    width: 80%;
+}
+
+#titulo{
+    width: 100%;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Courgette', cursive;
+
+}
+
+#texto{
+    font-size: 32px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    text-align: center;
+}
+
+#cita{
+    width: 100%;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-family: 'Courgette', cursive;
+}
+
+
+
+#cambiar-cita{
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+}
